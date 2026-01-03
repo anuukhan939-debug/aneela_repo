@@ -9,6 +9,7 @@ data = pd.read_csv("dataset/student_data.csv")
 #         DATA CLEANING
 # ===============================
 
+
 print("Initial Data Shape:", data.shape)
 # 1️⃣ Handle Missing Names
 data['name'] = data['name'].fillna("Unknown")
